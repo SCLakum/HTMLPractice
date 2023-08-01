@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style.css">
+    <link rel="stylesheet" href="/Main Class/CSS/Style.css">
+    <title>NS Inclass</title>
+</head>
+
+<body>
+    <div id="Home" class="left"><a href="/index.html"><img src="/Src/home.png" alt="Home"></a></div>
+    <div>
+        <a href="/Main Class/HTML/Image.html"> <button id="PrevBtn">previous</button></a>
+    </div>
+    <div>
+        <a href="/Main Class/HTML/InlineAndBlock.html"> <button id="NextBtn">Next</button></a>
+    </div>
+
+    <div>
+        <h1 id="MainPHeader">List in HTML</h1>
+    </div>
+    <section class="SubHeader">
+        <h2>Unordered HTML List</h1>
+            <p class="Explain">An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the
+                &lt;li&gt; tag. The list items will be marked with bullets (small black circles) by default.</p>
+
+            <p class="Explain">Used list-style-type: default.</p>
+            <ul class="UnOrList" id="UnOrLiEx-1">
+                <li>one</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ul>
+            <p class="Explain">Used list-style-type: circle.</p>
+            <ul class="UnOrList" id="UnOrLiEx-2">
+                <li>one</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ul>
+            <p class="Explain">Used list-style-type: square.</p>
+            <ul class="UnOrList" id="UnOrLiEx-3">
+                <li>one</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ul>
+    </section>
+
+    <section class="SubHeader">
+        <h2>Ordered HTML List</h1>
+            <p class="Explain">An ordered list starts with the &lt;ol&gt; tag. Each list item starts with the &lt;li&gt;
+                tag. The list items will be marked with numbers by default:</p>
+
+            <p class="Explain">Used list-style-type: default.</p>
+            <ol class="UnOrList" id="OrLiEx-1">
+                <li>one</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ol>
+            <p class="Explain">Used list-style-type: upper-alpha.</p>
+            <ol class="UnOrList" id="OrLiEx-2">
+                <li>one</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ol>
+            <p class="Explain">Used list-style-type: asupper-roman.</p>
+            <ol class="UnOrList" id="OrLiEx-3">
+                <li>one</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ol>
+    </section>
+
+    <section class="SubHeader">
+        <h2>HTML Description Lists</h1>
+            <p class="Explain">HTML supports description lists, which consist of terms and their corresponding
+                descriptions. The &lt;dl&gt; tag defines the description list, &lt;dt&gt; tags indicate the terms, and
+                &lt;dd&gt; tags contain the descriptions.</p>
+
+            <dl class="DsOrList" id="DsLiEx-1">
+                <dt>One</dt>
+                <dd>Number One</dd>
+                <dt>Two</dt>
+                <dd>Number Two</dd>
+            </dl>
+            <ul class="DsOrList" id="DsOrLiEx-1">
+                <li>Use the HTML &lt; dl &gt; element to define a description list.</li>
+                <li>Use the HTML &lt; dt &gt; element to define the description term</li>
+                <li>Use the HTML &lt; dd &gt; element to describe the term in a description list</li>
+            </ul>
+    </section>
+
+    <section class="SubHeader">
+        <h2>Nested List</h1>
+            <p class="Explain">
+                Nested lists in HTML refer to the practice of placing one list inside another list, creating a
+                hierarchical structure. This allows for the organization of content with greater levels of detail. To
+                create a nested list, you can use list elements such as &lt; ul &gt; (unordered list) or &lt; ol &gt;
+                (ordered list) within another &lt;li &gt; (list item) element.</p>
+
+            <ul class="NesList" id="NesLiEx-1">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVA</li>
+                <ol>
+                    <li>Arrays</li>
+                    <ul>
+                        <li>1D Arrays</li>
+                        <li>2D Arrays</li>
+                    </ul>
+                    <li>String</li>
+                    <li>Linked List</li>
+                </ol>
+                <li>Python</li>
+            </ul>
+    </section>
+    <footer></footer>
+</body>
+
+</html>

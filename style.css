@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+footer{
+  height: 100px;
+}
+.MainPHeader {
+  text-align: center;
+  font-size: 90;
+}
+.DatTable>table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.DatTable>table>thead>tr>th {
+  background-color: #f2f2f2;
+  padding: 10px;
+
+}
+
+.DatTable>table>tbody>tr>td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.DatTable>table>tbody>tr>td:nth-child(4) {
+  text-align: left;
+} 
+
+
+#Home {
+  padding: 7px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  border-radius: 90px;
+}
+
+#NextBtn {
+  padding: 5px 20px;
+  font-size: 20px;
+  position: fixed;
+  top: 93%;
+  right: 10px;
+  background-color: rgb(228, 228, 231);
+  border-radius: 10px;
+}
+#PrevBtn {
+  padding: 5px 20px;
+  font-size: 20px;
+  position: fixed;
+  top: 93%;
+  left: 10px;
+  background-color: rgb(228, 228, 231);
+  border-radius: 10px;
+}
+
+.MainExplain{
+  margin-top: 50px;
+}
+#Home>a>img {
+  height: 40px;
+  width: 40px;
+}
+
+.left {
+  float: left;
+  margin-right: 20px;
+}
+
+.right {
+  float: right;
+  margin-left: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+.Exhample{
+  font-weight: 1000;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Style.css" />
+    <link rel="stylesheet" href="/Main Class/CSS/01-Style.css" />
+    <title>NS Inclass</title>
+</head>
+
+<body>
+    <div id="Home" class="left">
+        <a href="/index.html"><img src="/Src/home.png" alt="Home" /></a>
+    </div>
+    <div>
+        <a href="/Main Class/HTML/03-InlineAndBlock.html">
+            <button id="PrevBtn">previous</button></a>
+    </div>
+    <div>
+        <!-- <a href="/Main Class/HTML/InlineAndBlock.html"> <button id="NextBtn">Next</button></a> -->
+    </div>
+
+    <div>
+        <h1 class="MainPHeader">Forms in HTML</h1>
+    </div>
+    <section class="SubHeader">
+        <form action="#" class="FormData">
+            <div class="Newinp">
+                <h4>Text Input</h4>
+                <div id="fName">
+                    <label for="FirstName">
+                        First Name:
+                        <input type="text" id="FirstName" placeholder="First name dalo" />
+                    </label>
+                </div>
+                <div id="LName">
+                    <label for="LastName">
+                        Last Name:
+                        <input type="text" id="LastName" placeholder="Last name dalo" />
+                    </label>
+                </div>
+            </div>
+
+            <div class="Newinp">
+                <h4>Password Input</h4>
+                <div id="Pass">
+                    <label for="Password">
+                        Password:
+                        <input type="password" id="Password" placeholder="******" />
+                    </label>
+                </div>
+                <div id="ConPass">
+                    <label for="ConformPassword">
+                        Conform Password:
+                        <input type="password" id="ConformPassword" placeholder="******" />
+                    </label>
+                </div>
+            </div>
+
+            <div class="Newinp">
+                <h4>Date Input</h4>
+                <div id="DOB">
+                    <label for="dateofbirth">
+                        DOB: <input type="date" id="dateofbirth" />
+                    </label>
+                </div>
+            </div>
+            <div class="Newinp">
+                <h4>Month Input</h4>
+                <div id="DOB">
+                    <label for="dateofbirth">
+                        DOB: <input type="month" id="dateofbirth" />
+                    </label>
+                </div>
+            </div>
+
+            <div class="Newinp">
+                <h4>Email Input</h4>
+                <div id="Eml">
+                    <label for="Email">
+                        Email id: <input type="email" id="Email" />
+                    </label>
+                </div>
+            </div>
+
+            <div class="Newinp">
+                <h4>Radio Button Input</h4>
+                <div id="Rediobtn">
+                    Gender:
+                    <label for="RedioButton1">
+                        <input type="radio" value="Gen" name="Gen" id="RedioButton1" /> Male 
+                    </label>
+                    <label for="RedioButton2">
+                        <input type="radio" value="Gen" name="Gen" id="RedioButton2" /> Female
+                    </label>
+                    <label for="RedioButton3">
+                        <input type="radio" value="Gen" name="Gen" id="RedioButton3" /> Other
+                    </label>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer></footer>
+</body>
+
+</html>

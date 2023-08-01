@@ -1,0 +1,43 @@
+.SubHeader{
+  margin: 60px 0px;
+}
+
+.ExampImage-1 {
+  height: 100px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.ExampImage-2 {
+  height: 100px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.ExampImage-3 {
+  height: 400;
+  width: 379;
+  border-radius: 5px;
+}
+
+#UnOrLiEx-2{
+  list-style-type:circle;
+}
+#UnOrLiEx-3{
+  list-style-type:square;
+}
+#OrLiEx-2{
+  list-style-type:upper-alpha;
+}
+#OrLiEx-3{
+  list-style-type:upper-roman;
+}
+
+h4{
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.Newinp>div{
+  margin: 3px 0px;
+}

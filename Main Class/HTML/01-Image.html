@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style.css">
+    <link rel="stylesheet" href="/Main Class/CSS/01-Style.css">
+    <title>NS Inclass</title>
+</head>
+
+<body>
+    <div id="Home" class="left"><a href="/index.html"><img src="/Src/home.png" alt="Home"></a></div>
+    <div>
+        <a href="/Main Class/HTML/02-list.html"> <button id="NextBtn">Next</button></a>
+    </div>
+
+    <div>
+        <h1 class="MainPHeader">HTML Images</h1>
+    </div>
+    <section class="SubHeader">
+        <h2>Images in Another Folder</h1>
+            <p class="Explain">If you have your images in a sub-folder, you must
+                include the folder name in the src
+                attribute.</p>
+            <img src="/Main Class/Src/flower.jpg" alt="Flower image" class="ExampImage-1">
+    </section>
+
+    <section class="SubHeader">
+        <h2>Images on Another Server/Website</h1>
+            <p class="Explain">Some web sites point to an image on another
+                server. <br> To point to an image on another
+                server, you must specify an absolute (full) URL in the src
+                attribute.</p>
+            <img src="https://shorturl.at/ety12" alt="AI Generated Images" class="ExampImage-1">
+    </section>
+
+    <section class="SubHeader">
+        <h2>Animated Images</h1>
+            <p class="Explain">HTML allows animated GIFs.</p>
+            <img src="https://shorturl.at/ilHI7" alt="JPG from link" class="ExampImage-1">
+    </section>
+
+    <section class="SubHeader">
+        <h2>Image as a Link</h1>
+            <p class="Explain">To use an image as a link, put the &lt;img&gt tag
+                inside the &lt;a&gt tag.</p>
+            <p class="Explain">Click below image to open link.</p>
+            <a href="https://shorturl.at/ety12" target="_blank">
+                <img src="https://shorturl.at/ety12" alt="AI Generated Images" class="ExampImage-1">
+            </a>
+    </section>
+
+    <section class="SubHeader">
+        <h2>Image Floating</h1>
+            <img src="https://shorturl.at/ety12" alt="AI Generated Images" class="ExampImage-2 left">
+            <img src="https://shorturl.at/ety12" alt="AI Generated Images" class="ExampImage-2 right">
+            <p class="Explain">Use the CSS float property to let the image float
+                to the right or to the left of a text.
+            </p>
+    </section>
+    <br>
+    <section class="SubHeader">
+        <h2>Image Maps</h1>
+            <img src="https://shorturl.at/ejTV8" alt="Workplace" usemap="#workmap" class="ExampImage-3 left">
+            <map name="workmap">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://shorturl.at/esEZ9"
+                    target="_blank">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.apple.com/in/iphone-14-pro/"
+                    target="_blank">
+                <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://shorturl.at/glxNO"
+                    target="_blank">
+            </map>
+            <p class="Explain">The HTML &lt;map&gt tag defines an image map. An
+                image map is an image with clickable areas. The areas are
+                defined with one or more &lt;area&gt tags.</p>
+            <p class="Explain">Click on the computer, the phone, or the cup of coffee to go to a new page and read more
+                about the topic.</p>
+    </section>
+    <footer></footer>
+</body>
+
+</html>
