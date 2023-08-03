@@ -89,7 +89,7 @@
                 <div id="Rediobtn">
                     Gender:
                     <label for="RedioButton1">
-                        <input type="radio" value="male" name="Gen" id="RedioButton1" /> Male 
+                        <input type="radio" value="male" name="Gen" id="RedioButton1" /> Male
                     </label>
                     <label for="RedioButton2">
                         <input type="radio" value="female" name="Gen" id="RedioButton2" /> Female
@@ -104,7 +104,7 @@
                 <div id="chbox">
                     Hobbies:
                     <label for="checkbox1">
-                        <input type="checkbox" value="male" name="Hoby" id="checkbox1" /> Coding 
+                        <input type="checkbox" value="male" name="Hoby" id="checkbox1" /> Coding
                     </label>
                     <label for="checkbox2">
                         <input type="checkbox" value="female" name="Hoby" id="checkbox2" /> Cricket
@@ -116,31 +116,43 @@
             </div>
             <div class="Newinp">
                 <h4>File input </h4>
-                    <label for="imginput">
-                        Upload Your Image: <input name="img" type="file" id="imginput"/>
-                    </label>
-                </div>
+                <label for="imginput">
+                    Upload Your Image: <input name="img" type="file" id="imginput" />
+                </label>
+            </div>
             </div>
             <div class="Newinp">
                 <h4>Selection</h4>
-                <label for="HigQali">
-                    Highest Qualification:
-                    <select name="highestQuali" id="HigQali">
-                        <option value="first" selected>Dopahr tak</option>
-                            <option value="ssc">10th</option>
-                            <option value="hsc">12th</option>
-                            <option value="Graduate">Graduate</option>
-                        </select>
-                    </label>
-                </div>
-            </div>
-            <div class="Newinp">
-                <h4>Selection</h4>
-                    <input type="submit" value="submit" name="submit" id="submitbtn">
-                    <input type="reset" value="reset" name="reset" id="resetbtn">
-                </div>
+                <label for="HigQali">Highest Qualification:</label>
+                <select name="highestQuali" id="HigQali">
+                    <option value="first" selected>Dopahr tak</option>
+                    <option value="ssc">10th</option>
+                    <option value="hsc">12th</option>
+                    <option value="Graduate">Graduate</option>
+                </select>
             </div>
             
+            <div class="Newinp">
+                <h4>Range</h4>
+                <label for="ran">Volume (between 0 and 100):</label>
+                <input type="range" id="ran" name="number" min="0" max="100" oninput="this.nextElementSibling.value = this.value">
+                <output>24</output>
+            </div>
+            <div class="Newinp">
+                <h4>Number input</h4>
+                <label for="num">enter Number between 0 to 100:</label>
+                <input type="number" id="num" name="number" min="0" max="100">
+            </div>
+            <div class="Newinp">
+                <h4>text area:</h4>
+                <label for="feedback">feedback:</label> <br>
+                <textarea type="textarea" name="feedback"  rows="4" cols="50"></textarea>
+            </div>
+            <div class="Newinp">
+                <h4>Submit and reset button</h4>
+                <input type="submit" value="submit" name="submit" id="submitbtn">
+                <input type="reset" value="reset" name="reset" id="resetbtn">
+            </div>
         </form>
     </section>
     <footer></footer>
