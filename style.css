@@ -7,6 +7,16 @@ body {
 footer{
   height: 100px;
 }
+#githublogo {
+  padding: 7px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  border-radius: 90px;
+}
+
 .MainPHeader {
   text-align: center;
   font-size: 90;
@@ -62,7 +72,9 @@ footer{
   background-color: rgb(228, 228, 231);
   border-radius: 10px;
 }
-
+.SubHeader {
+  margin: 60px 0px;
+}
 .MainExplain{
   margin-top: 50px;
 }

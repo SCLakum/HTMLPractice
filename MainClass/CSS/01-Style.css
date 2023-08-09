@@ -1,7 +1,3 @@
-.SubHeader{
-  margin: 60px 0px;
-}
-
 .ExampImage-1 {
   height: 100px;
   width: 200px;
@@ -20,24 +16,27 @@
   border-radius: 5px;
 }
 
-#UnOrLiEx-2{
-  list-style-type:circle;
-}
-#UnOrLiEx-3{
-  list-style-type:square;
-}
-#OrLiEx-2{
-  list-style-type:upper-alpha;
-}
-#OrLiEx-3{
-  list-style-type:upper-roman;
+#UnOrLiEx-2 {
+  list-style-type: circle;
 }
 
-h4{
+#UnOrLiEx-3 {
+  list-style-type: square;
+}
+
+#OrLiEx-2 {
+  list-style-type: upper-alpha;
+}
+
+#OrLiEx-3 {
+  list-style-type: upper-roman;
+}
+
+h4 {
   margin-bottom: 5px;
   margin-top: 20px;
 }
 
-.Newinp>div{
+.Newinp>div {
   margin: 3px 0px;
 }

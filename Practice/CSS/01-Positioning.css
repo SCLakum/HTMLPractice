@@ -1,0 +1,22 @@
+/* .box{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(242, 17, 17);
+    margin: 2px;
+}
+ */
+
+.box {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(242, 17, 17);
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Ex-1>.box{
+    display: inline-block;
+}
